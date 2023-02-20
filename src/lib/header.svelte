@@ -17,7 +17,7 @@
     <div class="absolute">
 		<div class="flex flex-row relative top-60 w-110 justify-between">
 			{#each items as item}
-			<img alt="{item}" src="../image/{item}.svg" on:click={() => (changeItemTo(item))} class="border-b-3 border-l-3 py-1 shadow-md hover hover:shadow-sm duration-25 cursor-pointer">
+			<img alt="{item}" src="./image/{item}.svg" on:click={() => (changeItemTo(item))} class="border-b-3 border-l-3 py-1 shadow-md hover hover:shadow-sm duration-25 cursor-pointer">
 			{/each}
 		</div>
 	</div>
