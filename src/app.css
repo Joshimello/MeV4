@@ -1,0 +1,45 @@
+@font-face {
+	font-family: manifesto;
+	src: url('./font/manifesto.ttf');
+}
+
+@font-face {
+	font-family: odudo;
+	font-weight: 200;
+	src: url('./font/odudo-light.otf');
+}
+
+@font-face {
+	font-family: odudo;
+	font-weight: 400;
+	src: url('./font/odudo-regular.otf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	-ms-overflow-style: none;
+    scrollbar-width: none;
+    /*cursor: none;*/
+}
+
+body::-webkit-scrollbar { 
+	display: none;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.font-manifesto {
+	font-family: manifesto, notosans;
+}
+
+.font-odudo {
+	font-family: odudo;
+}
