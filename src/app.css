@@ -9,12 +9,6 @@
 	src: url('./font/odudo-light.otf');
 }
 
-@font-face {
-	font-family: odudo;
-	font-weight: 400;
-	src: url('./font/odudo-regular.otf');
-}
-
 body {
 	margin: 0;
 	padding: 0;

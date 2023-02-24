@@ -1,0 +1,75 @@
+{
+	"EN": [
+		{
+			"icon": "wave.svg",
+			"title": "Halo I Am Joshua",
+			"body": [
+				"Freshman at NTHU Hsinchu, attempting computer science. I like Matcha and Katsudon."
+			]
+		},
+		{
+			"icon": "celebration.svg",
+			"title": "Com&hairsp;petitions",
+			"body": [
+				"<b>2022</b> Meichu Hackathon PixArt 2<sup>nd</sup>",
+				"<b>2023</b> Taipei Metro UXUI"
+			]
+		},
+		{
+			"icon": "exercise.svg",
+			"title": "Experiences",
+			"body": [
+				"<b>2023</b> Soon"
+			]
+		},
+		{
+			"icon": "school.svg",
+			"title": "Education",
+			"body": [
+				"<b>2022-2026</b> National Tsing Hua University"
+			]
+		},
+		{
+			"icon": "lightbulb.svg",
+			"title": "Projects",
+			"body": [
+				"<b>2023</b> Soon"
+			]
+		},
+		{
+			"icon": "drill.svg",
+			"title": "Le Forte",
+			"body": [
+				"Frontend",
+				["svelte", "solid", "jquery", "alpine"],
+				"Styling",
+				["tailwind", "windicss", "bootstrap", "carbon", "three"],
+				"Backend",
+				["nodejs", "pocketbase", "socket", "express", "koa"],
+				"Language",
+				["javascript", "typescript", "python", "c++", "c", "php"],
+				"Tools",
+				["figma", "git", "blender", "linux", "adobeae"]
+			]
+		},
+		{
+			"icon": "info.svg",
+			"title": "Find Me",
+			"body": [
+				"<b>Email</b> <a href='mailto:joshualeanjw@gmail.com' target='blank_'>Joshualeanjw@gmail.com</a>",
+				"<b>Page</b> <a href='https://me.chibimello.com' target='blank_'>me.chibimello.com</a>",
+				"<b>Github</b> <a href='https://github.com/joshimello' target='blank_'>Joshimello</a>"
+				
+			]
+		},
+		{
+			"icon": "",
+			"title": "",
+			"body": [
+				"Built with",
+				["svelte", "blender", "windicss", "gfonts", "simpleicons", "three"],
+				"and <3 by Joshua Lean"
+			]
+		}
+	]
+}
