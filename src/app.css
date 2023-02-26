@@ -1,18 +1,18 @@
 @font-face {
 	font-family: manifesto;
-	src: url('./font/manifesto.ttf');
+	src: url('/font/manifesto.ttf');
 }
 
 @font-face {
 	font-family: odudo;
 	font-weight: 200;
-	src: url('./font/odudo-light.otf');
+	src: url('/font/odudo-light.otf');
 }
 
 @font-face {
 	font-family: notosans;
 	font-weight: 200;
-	src: url('./font/notosans-light.otf');
+	src: url('/font/notosans-light.otf');
 }
 
 body {

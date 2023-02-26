@@ -76,6 +76,39 @@ document.onmousemove = event => {
 	// cursor.style.left = event.clientX + 'px'
 }
 
+let mouseDown = false
+let mouseDownPos, moveValue = 0, movePrev = 0
+
+window.ontouchstart = e => {
+	mouseDown = true
+	mouseDownPos = e.touches[0].clientX
+}
+
+window.onmousedown = e => {
+	mouseDown = true
+	mouseDownPos = e.clientX
+}
+
+window.ontouchmove = e => {
+	if(!mouseDown) return
+	moveValue = movePrev - (mouseDownPos - e.touches[0].clientX)
+}
+
+window.onmousemove = e => {
+	if(!mouseDown) return
+	moveValue = movePrev - (mouseDownPos - e.clientX)
+}
+
+window.ontouchend = e => {
+	mouseDown = false
+	movePrev = moveValue
+}
+
+window.onmouseup = e => {
+	mouseDown = false
+	movePrev = moveValue
+}
+
 const animate = () => {
 	requestAnimationFrame(animate)
 
@@ -83,7 +116,7 @@ const animate = () => {
     moveY += ( - mouseY - moveY ) * .02
 
     if (model) {
-		model.rotation.y = moveX / 900
+		model.rotation.y = moveX / 900 + moveValue / 100
 		model.rotation.z = moveY / 1000
     }
 
