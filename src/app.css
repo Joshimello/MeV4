@@ -20,7 +20,8 @@ body {
 	padding: 0;
 	-ms-overflow-style: none;
     scrollbar-width: none;
-    /*cursor: none;*/
+
+    touch-action: pan-y;
 }
 
 body::-webkit-scrollbar { 

@@ -1,7 +1,7 @@
 <section class="w-100vw h-100vh flex flex-col justify-center items-center noselect">
 	
 	<div class="flex flex-col absolute">
-        <span class="text-indigo-900 text-2xl mix-blend-difference pb-4 -z-1 font-manifesto">
+        <span class="text-indigo-900 text-2xl mix-blend-difference pb-4 -z-3 font-manifesto">
             I LOVE
         </span>
         <div class="text-stroke-indigo-300 text-transparent text-8xl mix-blend-color-dodge font-light font-manifesto flex flex-row justify-between w-80 duration-300 ease-in-out filter z-1 text-stroke-sm" id="headerText">
@@ -9,7 +9,7 @@
             <span>{char}</span>
             {/each}
         </div>
-        <span class="text-indigo-900 text-2xl mix-blend-difference text-right -z-1 font-manifesto">
+        <span class="text-indigo-900 text-2xl mix-blend-difference text-right -z-3 font-manifesto">
             ING
         </span>
     </div>
@@ -22,7 +22,9 @@
 		</div>
 	</div>
 
-    <canvas class="w-100vw h-100vh duration-200 ease-out filter opacity-100" id="bg">
+	<div class="w-100vw h-100vh absolute -z-1"></div>
+
+    <canvas class="w-100vw h-100vh duration-200 ease-out filter opacity-100 -z-2" id="bg">
    	</canvas>
 
 </section>
