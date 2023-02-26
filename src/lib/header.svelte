@@ -4,7 +4,7 @@
         <span class="text-indigo-900 text-2xl mix-blend-difference pb-4 -z-1 font-manifesto">
             I LOVE
         </span>
-        <div class="text-stroke-indigo-300 text-transparent text-9xl mix-blend-color-dodge font-light font-manifesto flex flex-row justify-between w-110 duration-300 ease-in-out filter z-1 text-stroke-sm" id="headerText">
+        <div class="text-stroke-indigo-300 text-transparent text-8xl mix-blend-color-dodge font-light font-manifesto flex flex-row justify-between w-80 duration-300 ease-in-out filter z-1 text-stroke-sm" id="headerText">
             {#each currentItem as char}
             <span>{char}</span>
             {/each}
@@ -15,7 +15,7 @@
     </div>
 
     <div class="absolute">
-		<div class="flex flex-row relative top-60 w-110 justify-between">
+		<div class="flex flex-row relative top-60 w-80 justify-between">
 			{#each items as item}
 			<img alt="{item}" src="./image/{item}.svg" on:click={() => (changeItemTo(item))} class="border-b-3 border-l-3 py-1 shadow-md hover hover:shadow-sm duration-25 cursor-pointer">
 			{/each}

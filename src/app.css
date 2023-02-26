@@ -9,6 +9,12 @@
 	src: url('./font/odudo-light.otf');
 }
 
+@font-face {
+	font-family: notosans;
+	font-weight: 200;
+	src: url('./font/notosans-light.otf');
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -35,5 +41,5 @@ body::-webkit-scrollbar {
 }
 
 .font-odudo {
-	font-family: odudo;
+	font-family: odudo, notosans;
 }

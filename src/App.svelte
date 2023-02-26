@@ -3,7 +3,7 @@ import Header from './lib/header.svelte'
 import Main from './lib/main.svelte'
 </script>
 
-<main class="flex flex-col items-center">
+<main>
 
     <!-- Cursor -->
     <!-- <div class="w-10 h-10 absolute top-10 z-100 transform -translate-x-1/2 -translate-y-1/2 rounded-full border-indigo-900 mix-blend-difference border-3" id="cursor">
@@ -14,5 +14,5 @@ import Main from './lib/main.svelte'
 
     <!-- Body -->
     <Main/>
-    
+
 </main>

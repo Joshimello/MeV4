@@ -4,7 +4,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 
 let scene = new THREE.Scene()
 
-let camera = new THREE.PerspectiveCamera(50, document.querySelector('#bg').offsetWidth / document.querySelector('#bg').offsetHeight, 1, 1000)
+let camera = new THREE.PerspectiveCamera(70, document.querySelector('#bg').offsetWidth / document.querySelector('#bg').offsetHeight, 1, 1000)
 camera.position.set(6, 2, 0)
 
 let renderer = new THREE.WebGLRenderer({
